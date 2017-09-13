@@ -2,6 +2,8 @@ enablePlugins(GatlingPlugin)
 
 scalaVersion := "2.12.3"
 
+ensimeScalaVersion in ThisBuild := "2.12.3"
+
 scalacOptions := Seq(
   "-encoding", "UTF-8", "-target:jvm-1.8", "-deprecation",
   "-feature", "-unchecked", "-language:implicitConversions", "-language:postfixOps")
